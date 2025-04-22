@@ -1,4 +1,3 @@
-import './App.css'
 import NavBar from './NavBar.jsx'
 import AppSBD from './page_sbd.jsx'
 import AppDMJ from './page_dmj.jsx'
