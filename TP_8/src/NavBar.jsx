@@ -50,11 +50,11 @@ export default function NavBar() {
           </li>
           <li className="text-lg font-medium">
             <a
-              href="#SO"
+              href="#OS"
               onClick={(e) => scrollToSection(e, 'OS')}
               className='text-white hover:text-color_so1 transition cursor-pointer'
             >
-              SO
+              OS
             </a>
           </li>
         </ul>

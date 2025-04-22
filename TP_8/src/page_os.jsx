@@ -5,7 +5,7 @@ export default function AppOS() {
     <div className="App min-h-screen flex flex-col items-center justify-center px-8 space-y-44 pt-40">
 
         {/* Bagian SO ============================*/}
-        <div id="SO" className="flex flex-row items-start gap-8 max-w-6xl">
+        <div id="OS" className="flex flex-row items-start gap-8 max-w-6xl">
           <img src={OSLogo} alt="OSLogo" className="w-64 h-auto object-contain" />
 
           <div className="flex flex-col space-y-6">

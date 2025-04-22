@@ -2,7 +2,7 @@ import DMJLogo from './assets/DMJLogo.svg'
 
 export default function AppDMJ() {
   return (
-      <div className="App min-h-screen flex flex-col items-center justify-center px-8 space-y-44 pt-40">
+    <div className="App min-h-screen flex flex-col items-center justify-center w-full px-8 space-y-44 pt-40">
 
         {/* Bagian DMJ ============================*/}
         <div id="DMJ" className="flex flex-row items-start gap-8 max-w-6xl">

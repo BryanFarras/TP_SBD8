@@ -1,26 +1,25 @@
-import NavBar from './NavBar.jsx'
-import AppSBD from './page_sbd.jsx'
-import AppDMJ from './page_dmj.jsx'
-import AppOS from './page_so.jsx'
+import NavBar from './NavBar.jsx';
+import AppSBD from './page_sbd.jsx';
+import AppDMJ from './page_dmj.jsx';
+import AppOS from './page_os.jsx';
 
 export default function App() {
   return (
     <div>
       <NavBar />
 
-      <div className="App min-h-screen flex flex-col items-center justify-center px-8 space-y-44 pt-40">
+      <div className="App min-h-screen flex flex-col items-center justify-center w-full px-8 space-y-44 pt-40">
         
-        {/* Home Section =============================*/}
-        <div id="home" className="flex flex-col items-center justify-center gap-8 max-w-6xl leading-[1.2] text-center">
-          <div className="flex flex-col space-y-5">
-          <h1 className="text-5xl font-bold flex items-center justify-center gap-2">
-          <span className="bg-gradient-to-r from-color_title1 to-color_title2 text-transparent bg-clip-text animated-gradient-text pb-2">
-            Network Laboratory
-          </span>
+        {/* Home Section ============================= */}
+        <div id="home" className="w-full flex flex-col items-center justify-center gap-8 text-center">
+          <div className="flex flex-col space-y-8 max-w-6xl w-full px-4">
+            <h1 className="text-5xl font-bold flex items-center justify-center gap-2 leading-[1.2]">
+              <span className="bg-gradient-to-r from-color_title1 to-color_title2 text-transparent bg-clip-text animated-gradient-text pb-1">
+                Network Laboratory
+              </span>
+            </h1>
 
-          </h1>
-
-            <p className="leading-relaxed font-inter text-xs max-w-2xl">
+            <p className="leading-relaxed font-inter text-xs max-w-2xl text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -28,12 +27,12 @@ export default function App() {
             </p>
           </div>
         </div>
-        
+
         <AppSBD />
         <AppDMJ />
         <AppOS />
-
+        
       </div>
     </div>
-  )
+  );
 }

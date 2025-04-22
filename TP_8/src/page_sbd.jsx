@@ -2,7 +2,7 @@ import SBDLogo from './assets/SBDLogo.svg'
 
 export default function AppSBD() {
   return (
-      <div className="App min-h-screen flex flex-col items-center justify-center px-8 space-y-44 pt-40">
+    <div className="App min-h-screen flex flex-col items-center justify-center w-full px-8 space-y-44 pt-40">
 
             {/* Bagian SBD ============================*/}
             <div id="SBD" className="flex flex-row items-start gap-8 max-w-6xl">
